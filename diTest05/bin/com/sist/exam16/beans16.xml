@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="articleDao" class="com.sist.exam16.OracleArticleDao"/>
+	<bean id="ws" class="com.sist.exam16.WriteArticleServiceImpl"
+		autowire="constructor"/>
+		
+		<!-- 
+			autowire="constructor"는 내부적으로 bytype으로 동작한다
+			그래서 동일한 자료형의 객체를 하나만 만들어야 한다
+			그러나 동일한 속성명의 id가 있으면 예외상황이다
+		 -->
+</beans>

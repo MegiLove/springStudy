@@ -1,0 +1,7 @@
+package com.sist.exam01;
+
+public class MessageBeanJP {
+	public void sayHello() {
+		System.out.println("«´«ó«Ë«Á«ï"+name+"!");
+	}
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sist.exam01.MessageBean"/>
+    <fullyQualifiedTypeName name="com.sist.exam01.MessageBeanJP"/>
+    <fullyQualifiedTypeName name="com.sist.exam02.MessageBeanEn"/>
+    <fullyQualifiedTypeName name="com.sist.exam02.MessageBean"/>
+    <fullyQualifiedTypeName name="com.sist.exam02.MessageBeanKr"/>
+    <fullyQualifiedTypeName name="org.springframework.core.io.FileSystemResource"/>
+    <fullyQualifiedTypeName name="org.springframework.core.io.Resource"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
+    <fullyQualifiedTypeName name="com.sist.exam03.MessageBean"/>
+    <fullyQualifiedTypeName name="com.sist.dao.MemberDAO"/>
+    <fullyQualifiedTypeName name="com.sist.exam07.WriteArticleServiceImpl"/>
+    <fullyQualifiedTypeName name="com.sist.exam11.GoodsVO"/>
+    <fullyQualifiedTypeName name="com.sist.exam12.SystemMonitor"/>
+    <fullyQualifiedTypeName name="com.sist.exam12.SmsSender"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="goodsVO" class="com.sist.exam15.GoodsVO"
+	p:no="10"
+	p:name="축구공"
+	p:price="15000"
+	p:qty="10"
+	p:fname="ball1.jpg"
+	/>
+	
+	<bean id="orderGoods" class="com.sist.exam15.OrderGoods"
+	p:customer="홍길동"
+	autowire="byName"
+	/>
+</beans>

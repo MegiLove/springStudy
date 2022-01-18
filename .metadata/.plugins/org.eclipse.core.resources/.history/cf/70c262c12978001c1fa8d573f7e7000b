@@ -1,0 +1,10 @@
+package com.sist.exam12;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainTest {
+	ApplicationContext context
+	= new ClassPathXmlApplicationContext("com/sist/exam12/beans12.xml");
+	
+}

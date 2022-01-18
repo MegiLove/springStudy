@@ -1,0 +1,6 @@
+package com.sist.exam11;
+
+public class OrderGoods {
+	private String customer;
+	private GoodsVO goodsVO;
+}

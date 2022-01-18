@@ -1,0 +1,17 @@
+package com.sist.exam01;
+
+public class Person {
+	public Person() {
+		System.out.println("생성자 동작함");
+	}
+	
+	public Person(String name) {
+		
+	}
+	
+	//사용자가 매개변수를 갖는 생성자를 
+	
+	public void sayHello() {
+		System.out.println("hello");
+	}
+}

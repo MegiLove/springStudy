@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.15.202012132325-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>src/com/sist/exam01/beans01.xml</config>
+		<config>src/com/sist/exam02/beans.xml</config>
+		<config>src/com/sist/exam03/beans03.xml</config>
+		<config>src/com/sist/exam04/beans04.xml</config>
+		<config>src/com/sist/exam05/beans05.xml</config>
+		<config>src/com/sist/exam06/beans06.xml</config>
+		<config>src/com/sist/exam07/beans07.xml</config>
+		<config>src/com/sist/exam08/beans08.xml</config>
+		<config>src/com/sist/exam12/beans12.xml</config>
+		<config>src/com/sist/exam13/beans13.xml</config>
+		<config>src/com/sist/exam14/beans14.xml</config>
+		<config>src/com/sist/exam15/beans15.xml</config>
+		<config>src/com/sist/exam16/beans16.xml</config>
+		<config>src/com/sist/exam17/beans17.xml</config>
+		<config>src/com/sist/exam18/beans18.xml</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>

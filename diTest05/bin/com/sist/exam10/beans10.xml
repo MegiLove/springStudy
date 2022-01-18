@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="goods" class="com.sist.exam10.GoodsVO">
+		<constructor-arg value="10"/>
+		<constructor-arg value="축구화"/>
+		<constructor-arg value="15000"/>
+		<constructor-arg value="10"/>
+		<constructor-arg value="shoe01.jpg"/>
+	</bean>
+	
+	<bean id="ordergoods" class="com.sist.exam10.OrderGoods">
+		<constructor-arg value="홍길동"/>
+		<constructor-arg ref="goods"/>
+	</bean>
+</beans>
