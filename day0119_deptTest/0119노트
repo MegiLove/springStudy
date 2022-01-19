@@ -1,0 +1,10 @@
+listDept.do요청--> web.xml--> Controller(ListDeptController)--> 
+view resolver sist-servlet.xml
+--> listDept.jsp
+
+insertDept.do라는 요청을 하게되면 InsertDeptController의 form이라는 메소드를 동작
+그리고 insertDept.jsp로 이동되게 한다. 
+
+그리고 insertDeptOK.do라고 요청하면
+insertDeptController의 submit이라는 메소드를 동작 
+이 메소드에서 DeptDao의 insertDept를 작동 그리고 insertDeptOK.jsp로 이동시킨다
